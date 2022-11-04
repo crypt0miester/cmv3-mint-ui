@@ -31,6 +31,7 @@ Reference UI to implement Metaplex Candy Machine V3 on frontend.
 - NEXT_PUBLIC_SOLANA_NETWORK=WalletAdapterNetwork
 - NEXT_PUBLIC_RPC_HOST=url
 - NEXT_PUBLIC_CANDY_MACHINE_ID=publickKey
+- NEXT_PUBLIC_GROUP_LABEL=groupLabel
 
 ### Candy machine v3 Config & Initialization
 *For configuaration and initialization please refer to [official Metaplex docs](https://docs.metaplex.com/programs/candy-machine/overview). You can also use [SugerCLI alpha](https://docs.metaplex.com/developer-tools/sugar/guides/sugar-for-cmv3) for it.*
