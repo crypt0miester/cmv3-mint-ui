@@ -14,12 +14,12 @@ Reference UI to implement Metaplex Candy Machine V3 on frontend.
   - [x] Token Payment
   - [x] Mint Limit
   - [x] Bot Tax
+  - [x] Redeemed Amount
   - [ ] Token Burn
   - [ ] Token Gate
   - [ ] NFT Payment
   - [ ] NFT Burn
   - [ ] NFT Gate
-  - [ ] Redeemed Amount
   - [ ] Third Party Signer
   - [ ] Address Gate
   - [ ] Allow List
