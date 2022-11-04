@@ -1,0 +1,81 @@
+{
+  "number": 665,
+  "symbol": "JJ",
+  "sellerFeeBasisPoints": 500,
+  "isMutable": true,
+  "isSequential": false,
+  "creators": [
+    {
+      "address": "ARTZHzWBrfcHtGVByfDBkv2b2RmvGXon4ck5XjR64rjP",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "bundlr",
+  "awsConfig": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": {
+    "default": {
+        "botTax": {
+            "value": 0.01,
+            "lastInstruction": true
+        }
+    },
+    "groups": [
+      {
+          "label": "Week 1",
+          "guards": {
+              "startDate": {
+                  "date": "2022-11-03 14:15:00 +0000"
+              },
+              "redeemedAmount": { "maximum": 10 },
+              "solPayment": {
+                  "value": 0.1,
+                  "destination": "ARTZHzWBrfcHtGVByfDBkv2b2RmvGXon4ck5XjR64rjP"
+              }
+            }
+      },
+      {
+          "label": "Week 2",
+          "guards": {
+              "startDate": {
+                  "date": "2022-11-10 12:00:00 +0000"
+              },
+              "redeemedAmount": { "maximum": 290 },
+              "solPayment": {
+                  "value": 1,
+                  "destination": "ARTZHzWBrfcHtGVByfDBkv2b2RmvGXon4ck5XjR64rjP"
+              }
+            }
+      },
+      {
+          "label": "Week 3",
+          "guards": {
+              "startDate": {
+                  "date": "2022-11-17 12:00:00 +0000"
+              },
+              "redeemedAmount": { "maximum": 300 },
+              "solPayment": {
+                  "value": 1,
+                  "destination": "ARTZHzWBrfcHtGVByfDBkv2b2RmvGXon4ck5XjR64rjP"
+              }
+            }
+      },
+      {
+          "label": "Week 4",
+          "guards": {
+              "startDate": {
+                  "date": "2022-11-24 12:00:00 +0000"
+              },
+              "redeemedAmount": { "maximum": 400 },
+              "solPayment": {
+                  "value": 1,
+                  "destination": "ARTZHzWBrfcHtGVByfDBkv2b2RmvGXon4ck5XjR64rjP"
+              }
+            }
+      }
+    ]
+  }
+}
